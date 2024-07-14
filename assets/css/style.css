@@ -331,10 +331,8 @@ header .header-nav .nav-item ul li {
 }
 
 header .header-nav .nav-img img {
-  /* position: relative; */
   width: 200px;
-  padding: 24px;
-  /* top: 10%; */
+  padding: 8px;
 }
 
 header .scroll-to-fixed-fixed {
@@ -350,9 +348,13 @@ header .scroll-to-fixed-fixed {
   margin-right: 12px;
 }
 
+.btnrow {
+  margin-right: 40px;
+}
+
 /* ===================================== Slider CSS ================================== */
 .slider-detail {
-  padding-top: 128px;
+  padding-top: 11.5rem;
 }
 
 .slider-detail .carousel-caption {
@@ -385,6 +387,24 @@ header .scroll-to-fixed-fixed {
 
 .slider-detail .vdg-cur {
   color: #1aaa55;
+}
+
+@media screen and (max-width: 449px) {
+  .slider-detail {
+    padding-top: 15rem;
+  }
+}
+
+@media screen and (max-width: 393px) {
+  .slider-detail {
+    padding-top: 16.5rem;
+  }
+}
+
+@media screen and (max-width: 270px) {
+  .slider-detail {
+    padding-top: 20rem;
+  }
 }
 
 /* ===================================== Key Features CSS ================================== */
@@ -578,6 +598,28 @@ header .scroll-to-fixed-fixed {
   font-weight: bold;
 }
 
+.outerbox {
+  height: fit-content;
+}
+
+.outerbox figure {
+  display: grid;
+  place-items: center;
+}
+
+.outerbox img {
+  height: 300px;
+}
+
+.innerbox {
+  height: 250px;
+  overflow-y: auto;
+}
+
+.blog-row {
+  justify-content: center;
+}
+
 /* ===================================== Footer CSS ================================== */
 .footer {
   padding: 50px;
@@ -742,8 +784,14 @@ header .scroll-to-fixed-fixed {
 /* ===================================== Blog Style  ================================== */
 
 .blog {
-  padding-top: 10rem;
+  padding-top: 14rem;
   padding-bottom: 2rem;
+}
+
+.blog .container .mid .col-sm-8 {
+  display: grid;
+  place-items: center;
+  text-align: center;
 }
 
 .blog .heading {
@@ -782,6 +830,12 @@ header .scroll-to-fixed-fixed {
   color: #2dbae9;
 }
 
+@media screen and (max-width: 768px) {
+  .blog {
+    padding-top: 18rem;
+  }
+}
+
 /* ================================== Package Details Style  ============================= */
 
 .book_package {
@@ -794,7 +848,7 @@ header .scroll-to-fixed-fixed {
 }
 
 .package-details {
-  padding-top: 10rem;
+  padding-top: 14rem;
 }
 
 .package-details .single-key {
@@ -818,7 +872,7 @@ header .scroll-to-fixed-fixed {
 
 .priv_pol {
   padding: 3rem;
-  padding-top: 10rem;
+  padding-top: 1rem;
 }
 
 .image {
@@ -826,4 +880,18 @@ header .scroll-to-fixed-fixed {
   background-color: #FFF;
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   margin: 2rem;
+}
+
+.page-nav .container {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 768px) {
+  .page-nav .container {
+    margin-top: 5rem;
+  }
+
+  .package-details {
+    padding-top: 17rem;
+  }
 }
