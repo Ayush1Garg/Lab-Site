@@ -895,3 +895,28 @@ header .scroll-to-fixed-fixed {
     padding-top: 17rem;
   }
 }
+
+.contact_form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact_form h2 {
+  text-align: center;
+  margin: 1rem;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+}
+
+label {
+  display: grid;
+  place-items: center;
+}
