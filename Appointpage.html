@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Book Appointment - Mahal Wellfare Laboratory</title>
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/fav_icon/favicon.ico" />
+
+    <link rel="shortcut icon" href="assets/images/fav.jpg">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/fontawsom-all.min.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+</head>
+
+<body>
+
+    <!-- ################# Header Starts Here#######################--->
+
+    <header>
+        <div class="header-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 left-item">
+                        <ul>
+                            <li>
+                                <i class="fas fa-location-arrow"></i> H.No. 1211, ECO City, New Chandigarh - 140901
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6 d-none d-lg-block right-item">
+                        <ul>
+                            <li><i class="fas fa-phone-square"></i>
+                                <a href="tel:+9988650650" class="contact">9988650650</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div id="nav-head" class="header-nav">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-12 nav-img">
+                        <a href="index.html" class="contact">
+                            <img src="assets/images/fav_icon/logo.jpg" alt="">
+                        </a>
+                        <a data-toggle="collapse" data-target="#menu" href="#menu"><i
+                                class="fas d-block d-md-none small-menu fa-bars"></i></a>
+                    </div>
+                    <div id="menu" class="col-md-9 d-none d-md-block nav-item">
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about_us.html">About Us</a></li>
+                            <li><a href="services.html">Services</a></li>
+                            <li><a href="package.html">Packages</a></li>
+                            <li><a href="blog.html">Blog</a></li>
+                            <li><a href="contact_us.html">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row mid btnrow">
+                    <a href="Appointpage.html" class="col-md-6 col-sm-12">
+                        <div class="btn btn-success" style="width: 100%;">Book an Appointment</div>
+                    </a>
+                    <a href="http://mwreports.elitepathology.com/report.aspx" class="col-md-6 col-sm-12">
+                        <div class="btn btn-warning" style="width: 100%;">Download Reports</div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+
+    </header>
+
+    <!--  ************************* Page Title Starts Here ************************** -->
+    <div class="page-nav no-margin row">
+        <div class="container">
+            <div class="row">
+                <h2>Mahal Wellfare Laboratory</h2>
+                <ul>
+                    <li> <a href="index.html"><i class="fas fa-home"></i> Home</a></li>
+                    <li><i class="fas fa-angle-double-right"></i> Appointment Booking</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!-- ######## Page  Title End ####### -->
+
+    <section class="contact_form">
+        <div class="form col-md-8">
+            <div class="container">
+                <h2>Book Appointment</h2>
+                <form action="https://formspree.io/f/mkgwopzr" method="POST" id="contactForm">
+                    <div class="row col-md-12">
+                        <div class="label col-md-4"><label for="name">Enter Name: </label></div>
+                        <div class="input col-md-8"><input type="text" name="Name" id="name"
+                                class="form-control input-sm" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="label col-md-4"><label for="mailId">Email Address: </label></div>
+                        <div class="input col-md-8"><input type="email" name="Email-Id" id="mailId"
+                                class="form-control input-sm" placeholder="Enter your email address" required></div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="label col-md-4"><label for="mobileNo">Enter Mobile Number: </label></div>
+                        <div class="input col-md-8"><input type="number" name="mobile-Number" id="mobileNo"
+                                class="form-control input-sm" placeholder="Enter your moile number" required>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="label col-md-4"><label>Select Service(s): </label></div>
+                        <div class="input col-md-8">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Hematology"
+                                    name="Hematology">
+                                <label class="form-check-label" for="Hematology">
+                                    Hematology
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Histopathology"
+                                    name="Histopathology">
+                                <label class="form-check-label" for="Histopathology">
+                                    Histopathology
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Biochemistry"
+                                    name="Biochemistry">
+                                <label class="form-check-label" for="Biochemistry">
+                                    Biochemistry (Auto Kit BioChemistry)
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Cytology_Routine"
+                                    name="Cytology_Routine">
+                                <label class="form-check-label" for="Cytology_Routine">
+                                    Cytology_Routine
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Cytology_Special"
+                                    name="Cytology_Special">
+                                <label class="form-check-label" for="Cytology_Special">
+                                    Cytology Special
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Molecular_Microbiology"
+                                    name="Molecular_Microbiology">
+                                <label class="form-check-label" for="Molecular_Microbiology">
+                                    Molecular Microbiology
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Immunology"
+                                    name="Immunology">
+                                <label class="form-check-label" for="Immunology">
+                                    Immunology
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Thyroid_Profile"
+                                    name="Thyroid_Profile">
+                                <label class="form-check-label" for="Thyroid_Profile">
+                                    Thyroid Profile
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Hormones" name="Hormones">
+                                <label class="form-check-label" for="Hormones">
+                                    Hormones
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Microbial_Sensitivity_Test"
+                                    name="Microbial_Sensitivity_Test">
+                                <label class="form-check-label" for="Microbial_Sensitivity_Test">
+                                    Microbial Sensitivity Test
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Urine" name="Urine">
+                                <label class="form-check-label" for="Urine">
+                                    Urine Test
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Stool_Test"
+                                    name="Stool_Test">
+                                <label class="form-check-label" for="Stool_Test">
+                                    Stool Test
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Semen_Test"
+                                    name="Semen_Test">
+                                <label class="form-check-label" for="Semen_Test">
+                                    Semen Test
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="Sputum_Tests"
+                                    name="Sputum_Tests">
+                                <label class="form-check-label" for="Sputum_Tests">
+                                    Sputum Tests
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row col-md-12 top-mar">
+                        <div class="label col-md-4"><label>Select Package(s): </label></div>
+                        <div class="input col-md-8">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="basicHealthCheckup"
+                                    name="Basic Health Checkup">
+                                <label class="form-check-label" for="basicHealthCheckup">
+                                    Basic Health Checkup
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="completeHealthCheckup"
+                                    name="Complete Health Checkup">
+                                <label class="form-check-label" for="completeHealthCheckup">
+                                    Complete Health Checkup
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="compHealCheckHorProf"
+                                    name="Complete Health Checkup Hormone Profile">
+                                <label class="form-check-label" for="compHealCheckHorProf">
+                                    Complete Health Checkup Hormone Profile ( Male / Female )
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="compHealCheckCancer"
+                                    name="Complete Health Checkup Cancer Markers">
+                                <label class="form-check-label" for="compHealCheckCancer">
+                                    Complete Health Checkup Cancer Markers
+                                </label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="checkbox" value="" id="glucoseToler"
+                                    name="Glucose Tolerance Test (GTT)">
+                                <label class="form-check-label" for="glucoseToler">
+                                    Glucose Tolerance Test (GTT)
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row col-md-12 mid">
+                        <button class="btn btn-danger col-md-4">Book Appointment</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ################# Footer Starts Here#######################--->
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-12">
+                    <h2>About Us</h2>
+                    <p>
+                        In ECO City, New Chandigarh Mahal Wellfare Laboratory one-stop destination servicing
+                        customers
+                        both local and from other
+                        parts of Chandigarh.The belief that customer satisfaction is as important as their services,
+                        have helped this
+                        establishment garner a vast base of customers, which continues to grow by the day.
+                    </p>
+                </div>
+                <div class="col-md-4 col-sm-12">
+                    <h2>Useful Links</h2>
+                    <ul class="list-unstyled link-list">
+                        <li><a ui-sref="about" href="about_us.html">About us<i class="fa fa-angle-right"></i></a></li>
+                        <li><a ui-sref="package" href="package.html">Package<i class="fa fa-angle-right"></i></a></li>
+                        <li><a ui-sref="blog" href="blog.html">Blog<i class="fa fa-angle-right"></i></a></li>
+                        <li><a ui-sref="contact" href="contact_us.html">Contact us<i class="fa fa-angle-right"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4 col-sm-12 map-img">
+                    <h2>Contact Us</h2>
+                    <address class="md-margin-bottom-40">
+                        H.No. 1211, <br> ECO City, <br> New Chandigarh - 140901 <br>
+                        Phone: <a href="tel:+9988650650" class="contact">9988650650</a> <br>
+                        Web: <a href="index.html" class="contact">Go to Site</a>
+                    </address>
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+    <div class="copy">
+        <div class="container">
+            &copy; 2022 Mahal Wellfare Laboratory |
+            <a href="privacy_policy.html">Privacy Policy</a>
+        </div>
+
+    </div>
+
+</body>
+<script src="assets/js/contactForm.js"></script>
+<script src="assets/js/jquery-3.2.1.min.js"></script>
+<script src="assets/js/popper.min.js"></script>
+<script src="assets/js/bootstrap.min.js"></script>
+<script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
+<script src="assets/js/script.js"></script>
+
+
+</html>

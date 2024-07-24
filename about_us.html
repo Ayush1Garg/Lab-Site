@@ -54,7 +54,7 @@
                     <div id="menu" class="col-md-9 d-none d-md-block nav-item">
                         <ul>
                             <li><a href="index.html">Home</a></li>
-                            <li><a href="about_us.html">About Us</a></li>
+                            <li><a href="about_us.html" class="active">About Us</a></li>
                             <li><a href="services.html">Services</a></li>
                             <li><a href="package.html">Packages</a></li>
                             <li><a href="blog.html">Blog</a></li>
@@ -63,8 +63,7 @@
                     </div>
                 </div>
                 <div class="row mid btnrow">
-                    <a href="https://lab1.cloudpathology.io/appointment/#/book?l_id=l5&ref_doc_id=176_l5&agency_id=1_l5&center_id=c5&app_type="
-                        class="col-md-6 col-sm-12">
+                    <a href="Appointpage.html" class="col-md-6 col-sm-12">
                         <div class="btn btn-success" style="width: 100%;">Book an Appointment</div>
                     </a>
                     <a href="http://mwreports.elitepathology.com/report.aspx" class="col-md-6 col-sm-12">
@@ -190,17 +189,41 @@
 
     </section>
 
-    <!--#################### Certificate Here ####################-->
-    <!-- <div class="certificate mid">
-        <section class="center">
-            <h2>An ISO 9001:2015 Certified Laboratory</h2>
-            <a
-                href="">
-                <img src=""
-                    alt="" height="500px" width="400px" class="image">
-            </a>
-        </section>
-    </div> -->
+    <section class="contact_form">
+        <div class="form col-md-8">
+            <div class="container">
+                <h2>Message Us</h2>
+                <form action="https://formspree.io/f/xdknadkj" method="POST" id="contactForm">
+                    <div class="row col-md-12">
+                        <div class="label col-md-4"><label for="name">Enter Name: </label></div>
+                        <div class="input col-md-8"><input type="text" name="Name" id="name"
+                                class="form-control input-sm" placeholder="Enter your name" required>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="label col-md-4"><label for="mailId">Email Address: </label></div>
+                        <div class="input col-md-8"><input type="email" name="Email-Id" id="mailId"
+                                class="form-control input-sm" placeholder="Enter your email address" required></div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="label col-md-4"><label for="mobileNo">Enter Mobile Number: </label></div>
+                        <div class="input col-md-8"><input type="number" name="mobile-Number" id="mobileNo"
+                                class="form-control input-sm" placeholder="Enter your moile number" required>
+                        </div>
+                    </div>
+                    <div class="row col-md-12">
+                        <div class="label col-md-4"><label for="message">Enter Message / Enquiry : </label></div>
+                        <div class="input col-md-8"><textarea rows="4" placeholder="Enter Your Message / Enquiry"
+                                id="message" class="form-control input-sm" name="Message" required></textarea>
+                        </div>
+                    </div>
+                    <div class="row col-md-12 mid">
+                        <button class="btn btn-danger col-md-4">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
 
     <!-- ################# Footer Starts Here#######################--->
 
@@ -258,6 +281,6 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <script src="assets/plugins/scroll-fixed/jquery-scrolltofixed-min.js"></script>
 <script src="assets/js/script.js"></script>
-
+<script src="assets/js/contactForm.js"></script>
 
 </html>
