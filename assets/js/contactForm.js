@@ -12,7 +12,7 @@ contactForm.addEventListener("submit", (e) => {
         mode: "no-cors"
     })
         .then(() => {
-            window.location.href = "/"
+            // window.location.href = "/"
             alert("Message Sent");
         })
         .catch((err) => alert(`Error : ${err}, Please try again`));
